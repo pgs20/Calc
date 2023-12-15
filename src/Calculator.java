@@ -1,4 +1,5 @@
-import java.util.function.Supplier;
+import java.util.function.*;
+
 
 public class Calculator {
     static Supplier<Calculator> istance = Calculator::new;
